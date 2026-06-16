@@ -7,8 +7,7 @@ WATER_PER_KG = 30
 
 def get_name():
     """Запрашивает имя пользователя и возвращает его."""
-    user_name = input("Вас приветствует FitLife бот! Как ваше имя? ")
-    return user_name
+    return input("Вас приветствует FitLife бот! Как ваше имя? ")
 
 
 def get_weight():
@@ -35,8 +34,7 @@ def get_height():
 
 def bmi_calc(weight, height):
     """Вычисляет ИМТ, принимает аргументами вес и рост."""
-    bmi = weight / (height ** 2)
-    return round(bmi, 1)
+    return round(weight / (height ** 2))
 
 
 def water_calc(weight):
