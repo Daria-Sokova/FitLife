@@ -34,7 +34,7 @@ def get_height():
 
 def bmi_calc(weight, height):
     """Вычисляет ИМТ, принимает аргументами вес и рост."""
-    return round(weight / (height ** 2),1)
+    return round(weight / (height ** 2), 1)
 
 
 def water_calc(weight):
